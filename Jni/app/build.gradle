@@ -11,7 +11,7 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         ndk {
             moduleName "LJPriject" //输出的SO文件名称
-//            abiFilters "armeabi-v7a","x86"//指定cpu的类型
+            abiFilters "armeabi-v7a","x86"//指定cpu的类型
         }
     }
     buildTypes {
